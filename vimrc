@@ -20,12 +20,12 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 filetype plugin on
 "----------------------------vim markdown
-let g:vim_markdown_folding_level = 5 
+" let g:vim_markdown_folding_level = 5 
 " -------------------------
 
 "let g:indentLine_setColors = 0
 "let g:indentLine_char = '|'
-
+let g:vim_markdown_folding_disabled = 1
 
 "--------------syntax related----------------------------------------------"
 syntax on
